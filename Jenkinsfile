@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'npm-run-all'
+        sh 'npm build'
       }
     }
   }
